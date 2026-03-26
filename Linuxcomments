@@ -11,4 +11,64 @@ Touch - create empty file
 Vi - to view and edit the file 
 nano - to view and edit the file (mosty not used)
 cat - to view 
-cat >> <filename> - to edit 
+cat >> <filename> - to edit and to remain
+cat <filename> >> <filename1> - copy the the same content 
+>> -  Appenend Symbol  
+cp  <filename> <filename> - Copy 
+mv <file name> <newname> - move or cut 
+echo "hari" - Print or add satement 
+~/ - Indicates Home directory
+cd - --> cd hifin indicates the last working directory 
+
+ls -lstr --> 
+-l --> Long list format
+-s --> shows file size
+-t --> sorts by modification time 
+-r --> reverses the sorting order 
+-s --> Sorts by file (larger to smaler)
+
+ls -a --> to view hidden file and directory 
+
+source .bashru (or) . .bashrc --> to execute the path  
+mkdir -p --   
+rm - to Delete 
+rm * - pattten match to delete in directory 
+  
+
+#Hardlink and Softlink 
+
+HardLink - Samefile with different file name
+if we whatever add in one file same thing is added to the anotherfile like backup. 
+
+
+ln --> comment 
+eg : ln <oldname> <newname>
+
+
+highlight Comment cterm=bold ctermfg=Softlink
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
