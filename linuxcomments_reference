@@ -34,7 +34,24 @@ source .bashru (or) . .bashrc --> to execute the path
 mkdir -p --   
 rm - to Delete 
 rm * - pattten match to delete in directory 
-  
+ 
+
+#chmod 
+
+chmod ----> change mod (Provide Permission)
+
+read permission -- 4
+write permission -- 2
+execute permission -- 1
+
+EG:
+chmod 777  [file name] 
+
+first 7 ----> refers user 
+second 7 ---> refers group 
+third 7 ----> refers everyone 
+
+ 
 
 #Hardlink and Softlink 
 
@@ -50,8 +67,12 @@ highlight Comment cterm=bold ctermfg=Softlink
 
  
 
+#Network comments 
 
-
+free ---> Memory Usage 
+nproc --> CPU 
+df ---->  Disk
+top ----> all in one comment 
 
 
 
