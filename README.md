@@ -1,17 +1,6 @@
 # Linux-comment
 Linux comment for my reference 
 
-PWD - Present working Directory 
-uname - a - check version 
-CD - Current Directory 
-whomai - Identy the user 
-Ls - List out files and directory 
-mkdir - Make Directory 
-Touch - create empty file
-Vi - to view and edit the file 
-nano - to view and edit the file (mosty not used)
-cat - to view 
-cat >> <filename> - to edit 
 
 For changing the host name need to go inside the ----- /etc/hostname
 For reboot the server ---- Sudo reboot 
