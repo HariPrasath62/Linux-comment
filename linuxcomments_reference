@@ -75,6 +75,24 @@ df ---->  Disk
 top ----> all in one comment 
 
 
+#Advance Linux comments
+
+date ------> to print today date
+ps -ef  ----> to check procresser running in the machine 
+grep  ------> to search for specific words, phrases, or patterns inside text files
+|   --------> Pipe command and to send output of first comment to the second command 
+awk --------> patten scanning and to filter out the output and share the excact status 
+
+eg : ps -ef | grep "usr"
+eg : ps -ef | grep "usr" | awk -f "" '{print $2}'
+
+
+set -x ----> print the script in debug mode 
+set -e ----> Exit the Script if there is an error in the script 
+set -o ----> exit the script if pipe(|) is failed 
+
+
+ 
 
 
 
